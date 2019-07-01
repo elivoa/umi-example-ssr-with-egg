@@ -13,7 +13,6 @@ export default {
         // TODO, page router css leak
         dynamicImport: false,
         publicPath: '/public/',
-
         locale: {
           enable: true,
           default: 'en-US',
