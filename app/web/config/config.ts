@@ -12,6 +12,14 @@ export default {
         antd: true,
         // TODO, page router css leak
         dynamicImport: false,
+        publicPath: '/public/',
+
+        locale: {
+          enable: true,
+          default: 'en-US',
+          baseNavigator: true,
+        },
+
         // dynamicImport: {
         //   webpackChunkName: true,
         // },
